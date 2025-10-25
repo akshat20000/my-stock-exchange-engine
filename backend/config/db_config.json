@@ -1,0 +1,6 @@
+{
+    "host":"localhost",
+    "port":5432,
+    "password":"Akshat@2004",
+    "dbname":"stock_exchange"
+}
