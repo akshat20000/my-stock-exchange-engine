@@ -4,15 +4,31 @@ project(Stock-Exchange-Engine)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_BUILD_TYPE Debug)
 
-# Include directories
-include_directories(include)
-
-# Find libraries
+# --- Find Libraries ---
 find_package(Threads REQUIRED)
-find_package(PostgreSQL REQUIRED)
+find_package(PkgConfig REQUIRED)
 
-# Source files
+# Use pkg-config to find both libraries
+pkg_search_module(HIREDIS REQUIRED hiredis)
+pkg_search_module(LIBPQXX REQUIRED libpqxx)
+
+# --- Include Directories ---
+# Add our 'include' folder AND the library include folders
+include_directories(
+    include
+    ${LIBPQXX_INCLUDE_DIRS}
+    ${HIREDIS_INCLUDE_DIRS}
+)
+
+# --- Source Files ---
 file(GLOB SOURCES "src/*.cpp")
 
+# --- Build Target ---
 add_executable(stock_engine ${SOURCES})
-target_link_libraries(stock_engine PRIVATE PostgreSQL::PostgreSQL Threads::Threads)
+
+# --- Link Libraries ---
+target_link_libraries(stock_engine PRIVATE 
+    Threads::Threads      # The modern target for Threads
+    ${LIBPQXX_LIBRARIES}    # The libraries from pkg-config
+    ${HIREDIS_LIBRARIES}   # The libraries from pkg-config
+)

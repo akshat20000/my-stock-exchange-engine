@@ -11,6 +11,7 @@ const redis = createClient();
 redis.connect();
 
 redis.subscribe("trade_channel", (message) => {
+  console.log("Relaying new trade:", message);
   io.emit("newTrade", JSON.parse(message));
 });
 

@@ -1,8 +1,0 @@
-# ninja log v6
-3	1061	7830958888104397	CMakeFiles/stock_engine.dir/src/main.cpp.obj	d426da8950c1e918
-10	1095	7830958888164741	CMakeFiles/stock_engine.dir/src/matching_engine.cpp.obj	77ef0dbfdfde352b
-15	1383	7830958888224766	CMakeFiles/stock_engine.dir/src/orderbook.cpp.obj	62fa6849f7ee273d
-15	841	7830963403529885	CMakeFiles/stock_engine.dir/src/main.cpp.obj	71b434d67f7e0f56
-22	899	7830963403599938	CMakeFiles/stock_engine.dir/src/matching_engine.cpp.obj	7fa80ec35063ab01
-30	1216	7830963403680014	CMakeFiles/stock_engine.dir/src/orderbook.cpp.obj	932cc52b4e778a26
-1218	1369	7830963415548986	stock_engine.exe	c3ebb8cb8db948df

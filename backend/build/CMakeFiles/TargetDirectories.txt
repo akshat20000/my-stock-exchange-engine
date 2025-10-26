@@ -1,3 +1,3 @@
-E:/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/build/CMakeFiles/stock_engine.dir
-E:/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/build/CMakeFiles/edit_cache.dir
-E:/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/build/CMakeFiles/rebuild_cache.dir
+/mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/build/CMakeFiles/stock_engine.dir
+/mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/build/CMakeFiles/edit_cache.dir
+/mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/build/CMakeFiles/rebuild_cache.dir
