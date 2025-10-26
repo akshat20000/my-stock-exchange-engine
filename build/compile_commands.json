@@ -1,0 +1,26 @@
+[
+{
+  "directory": "/mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/build",
+  "command": "/usr/bin/g++  -I/mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/include -isystem /usr/include/postgresql -g -std=gnu++17 -o CMakeFiles/stock_engine.dir/src/database.cpp.o -c /mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/src/database.cpp",
+  "file": "/mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/src/database.cpp",
+  "output": "CMakeFiles/stock_engine.dir/src/database.cpp.o"
+},
+{
+  "directory": "/mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/build",
+  "command": "/usr/bin/g++  -I/mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/include -isystem /usr/include/postgresql -g -std=gnu++17 -o CMakeFiles/stock_engine.dir/src/main.cpp.o -c /mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/src/main.cpp",
+  "file": "/mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/src/main.cpp",
+  "output": "CMakeFiles/stock_engine.dir/src/main.cpp.o"
+},
+{
+  "directory": "/mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/build",
+  "command": "/usr/bin/g++  -I/mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/include -isystem /usr/include/postgresql -g -std=gnu++17 -o CMakeFiles/stock_engine.dir/src/matching_engine.cpp.o -c /mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/src/matching_engine.cpp",
+  "file": "/mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/src/matching_engine.cpp",
+  "output": "CMakeFiles/stock_engine.dir/src/matching_engine.cpp.o"
+},
+{
+  "directory": "/mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/build",
+  "command": "/usr/bin/g++  -I/mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/include -isystem /usr/include/postgresql -g -std=gnu++17 -o CMakeFiles/stock_engine.dir/src/orderbook.cpp.o -c /mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/src/orderbook.cpp",
+  "file": "/mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/src/orderbook.cpp",
+  "output": "CMakeFiles/stock_engine.dir/src/orderbook.cpp.o"
+}
+]

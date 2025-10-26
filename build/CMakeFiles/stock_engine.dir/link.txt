@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/stock_engine.dir/src/database.cpp.o CMakeFiles/stock_engine.dir/src/main.cpp.o CMakeFiles/stock_engine.dir/src/matching_engine.cpp.o CMakeFiles/stock_engine.dir/src/orderbook.cpp.o -o stock_engine  /usr/lib/x86_64-linux-gnu/libpq.so 

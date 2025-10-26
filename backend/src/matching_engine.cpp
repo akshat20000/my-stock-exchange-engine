@@ -1,4 +1,6 @@
 #include "matching_engine.hpp"
+#include "redis_client.hpp"
+#include <sstream>
 #include <iostream>
 
 void MatchingEngine::processOrder(const Order& order) {
@@ -15,6 +17,10 @@ void MatchingEngine::processOrder(const Order& order) {
         t.timestamp = std::chrono::system_clock::now();
 
         trades.push_back(t);
+        RedisClient redis("127.0.0.1", 6379);
+        std::stringstream msg;
+        msg << "{\"trade_id\":" << t.trade_id << ",\"price\":" << t.price << ",\"qty\":" << t.quantity << "}";
+        redis.publish("trade_channel", msg.str());
         std::cout << "Trade Executed: " << t.trade_id << " @ " << t.price << std::endl;
     }
 }

@@ -1,0 +1,3 @@
+/mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/build/CMakeFiles/stock_engine.dir
+/mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/build/CMakeFiles/edit_cache.dir
+/mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/build/CMakeFiles/rebuild_cache.dir
