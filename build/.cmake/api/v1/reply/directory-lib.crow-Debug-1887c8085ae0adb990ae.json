@@ -1,0 +1,87 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"lib/crow/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 292,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 296,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 314,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				{
+					"from" : "lib/crow/include",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Crow",
+			"exportName" : "CrowTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "Crow::@e08abc26829572377675",
+					"index" : 0
+				}
+			],
+			"paths" : 
+			[
+				"lib/crow/CMakeFiles/Export/39b93a7c549578a74ae8b70f67840a75/CrowTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Crow",
+			"paths" : 
+			[
+				"lib/crow/cmake/Findasio.cmake",
+				"/mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/build/lib/crow/CrowConfig.cmake"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "lib/crow",
+		"source" : "lib/crow"
+	}
+}

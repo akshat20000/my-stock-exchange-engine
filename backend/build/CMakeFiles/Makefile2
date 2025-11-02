@@ -64,15 +64,32 @@ CMAKE_BINARY_DIR = /mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/bac
 
 # The main recursive "all" target.
 all: CMakeFiles/stock_engine.dir/all
+all: lib/crow/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
-preinstall:
+preinstall: lib/crow/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: CMakeFiles/stock_engine.dir/clean
+clean: lib/crow/clean
 .PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory lib/crow
+
+# Recursive "all" directory target.
+lib/crow/all:
+.PHONY : lib/crow/all
+
+# Recursive "preinstall" directory target.
+lib/crow/preinstall:
+.PHONY : lib/crow/preinstall
+
+# Recursive "clean" directory target.
+lib/crow/clean: lib/crow/CMakeFiles/uninstall.dir/clean
+.PHONY : lib/crow/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/stock_engine.dir
@@ -81,12 +98,12 @@ clean: CMakeFiles/stock_engine.dir/clean
 CMakeFiles/stock_engine.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/stock_engine.dir/build.make CMakeFiles/stock_engine.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/stock_engine.dir/build.make CMakeFiles/stock_engine.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target stock_engine"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/build/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target stock_engine"
 .PHONY : CMakeFiles/stock_engine.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/stock_engine.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/build/CMakeFiles 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/stock_engine.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/build/CMakeFiles 0
 .PHONY : CMakeFiles/stock_engine.dir/rule
@@ -99,6 +116,32 @@ stock_engine: CMakeFiles/stock_engine.dir/rule
 CMakeFiles/stock_engine.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/stock_engine.dir/build.make CMakeFiles/stock_engine.dir/clean
 .PHONY : CMakeFiles/stock_engine.dir/clean
+
+#=============================================================================
+# Target rules for target lib/crow/CMakeFiles/uninstall.dir
+
+# All Build rule for target.
+lib/crow/CMakeFiles/uninstall.dir/all:
+	$(MAKE) $(MAKESILENT) -f lib/crow/CMakeFiles/uninstall.dir/build.make lib/crow/CMakeFiles/uninstall.dir/depend
+	$(MAKE) $(MAKESILENT) -f lib/crow/CMakeFiles/uninstall.dir/build.make lib/crow/CMakeFiles/uninstall.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/build/CMakeFiles --progress-num= "Built target uninstall"
+.PHONY : lib/crow/CMakeFiles/uninstall.dir/all
+
+# Build rule for subdir invocation for target.
+lib/crow/CMakeFiles/uninstall.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/build/CMakeFiles 0
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/crow/CMakeFiles/uninstall.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/build/CMakeFiles 0
+.PHONY : lib/crow/CMakeFiles/uninstall.dir/rule
+
+# Convenience name for target.
+uninstall: lib/crow/CMakeFiles/uninstall.dir/rule
+.PHONY : uninstall
+
+# clean rule for target.
+lib/crow/CMakeFiles/uninstall.dir/clean:
+	$(MAKE) $(MAKESILENT) -f lib/crow/CMakeFiles/uninstall.dir/build.make lib/crow/CMakeFiles/uninstall.dir/clean
+.PHONY : lib/crow/CMakeFiles/uninstall.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

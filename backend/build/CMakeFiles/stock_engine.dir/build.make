@@ -73,71 +73,85 @@ CMakeFiles/stock_engine.dir/src/database.cpp.o: CMakeFiles/stock_engine.dir/flag
 CMakeFiles/stock_engine.dir/src/database.cpp.o: /mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/src/database.cpp
 CMakeFiles/stock_engine.dir/src/database.cpp.o: CMakeFiles/stock_engine.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/stock_engine.dir/src/database.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/stock_engine.dir/src/database.cpp.o -MF CMakeFiles/stock_engine.dir/src/database.cpp.o.d -o CMakeFiles/stock_engine.dir/src/database.cpp.o -c /mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/src/database.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/stock_engine.dir/src/database.cpp.o -MF CMakeFiles/stock_engine.dir/src/database.cpp.o.d -o CMakeFiles/stock_engine.dir/src/database.cpp.o -c /mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/src/database.cpp
 
 CMakeFiles/stock_engine.dir/src/database.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/stock_engine.dir/src/database.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/src/database.cpp > CMakeFiles/stock_engine.dir/src/database.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/src/database.cpp > CMakeFiles/stock_engine.dir/src/database.cpp.i
 
 CMakeFiles/stock_engine.dir/src/database.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/stock_engine.dir/src/database.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/src/database.cpp -o CMakeFiles/stock_engine.dir/src/database.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/src/database.cpp -o CMakeFiles/stock_engine.dir/src/database.cpp.s
 
 CMakeFiles/stock_engine.dir/src/main.cpp.o: CMakeFiles/stock_engine.dir/flags.make
 CMakeFiles/stock_engine.dir/src/main.cpp.o: /mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/src/main.cpp
 CMakeFiles/stock_engine.dir/src/main.cpp.o: CMakeFiles/stock_engine.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/stock_engine.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/stock_engine.dir/src/main.cpp.o -MF CMakeFiles/stock_engine.dir/src/main.cpp.o.d -o CMakeFiles/stock_engine.dir/src/main.cpp.o -c /mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/src/main.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/stock_engine.dir/src/main.cpp.o -MF CMakeFiles/stock_engine.dir/src/main.cpp.o.d -o CMakeFiles/stock_engine.dir/src/main.cpp.o -c /mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/src/main.cpp
 
 CMakeFiles/stock_engine.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/stock_engine.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/src/main.cpp > CMakeFiles/stock_engine.dir/src/main.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/src/main.cpp > CMakeFiles/stock_engine.dir/src/main.cpp.i
 
 CMakeFiles/stock_engine.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/stock_engine.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/src/main.cpp -o CMakeFiles/stock_engine.dir/src/main.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/src/main.cpp -o CMakeFiles/stock_engine.dir/src/main.cpp.s
 
 CMakeFiles/stock_engine.dir/src/matching_engine.cpp.o: CMakeFiles/stock_engine.dir/flags.make
 CMakeFiles/stock_engine.dir/src/matching_engine.cpp.o: /mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/src/matching_engine.cpp
 CMakeFiles/stock_engine.dir/src/matching_engine.cpp.o: CMakeFiles/stock_engine.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/stock_engine.dir/src/matching_engine.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/stock_engine.dir/src/matching_engine.cpp.o -MF CMakeFiles/stock_engine.dir/src/matching_engine.cpp.o.d -o CMakeFiles/stock_engine.dir/src/matching_engine.cpp.o -c /mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/src/matching_engine.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/stock_engine.dir/src/matching_engine.cpp.o -MF CMakeFiles/stock_engine.dir/src/matching_engine.cpp.o.d -o CMakeFiles/stock_engine.dir/src/matching_engine.cpp.o -c /mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/src/matching_engine.cpp
 
 CMakeFiles/stock_engine.dir/src/matching_engine.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/stock_engine.dir/src/matching_engine.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/src/matching_engine.cpp > CMakeFiles/stock_engine.dir/src/matching_engine.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/src/matching_engine.cpp > CMakeFiles/stock_engine.dir/src/matching_engine.cpp.i
 
 CMakeFiles/stock_engine.dir/src/matching_engine.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/stock_engine.dir/src/matching_engine.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/src/matching_engine.cpp -o CMakeFiles/stock_engine.dir/src/matching_engine.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/src/matching_engine.cpp -o CMakeFiles/stock_engine.dir/src/matching_engine.cpp.s
 
 CMakeFiles/stock_engine.dir/src/orderbook.cpp.o: CMakeFiles/stock_engine.dir/flags.make
 CMakeFiles/stock_engine.dir/src/orderbook.cpp.o: /mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/src/orderbook.cpp
 CMakeFiles/stock_engine.dir/src/orderbook.cpp.o: CMakeFiles/stock_engine.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/stock_engine.dir/src/orderbook.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/stock_engine.dir/src/orderbook.cpp.o -MF CMakeFiles/stock_engine.dir/src/orderbook.cpp.o.d -o CMakeFiles/stock_engine.dir/src/orderbook.cpp.o -c /mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/src/orderbook.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/stock_engine.dir/src/orderbook.cpp.o -MF CMakeFiles/stock_engine.dir/src/orderbook.cpp.o.d -o CMakeFiles/stock_engine.dir/src/orderbook.cpp.o -c /mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/src/orderbook.cpp
 
 CMakeFiles/stock_engine.dir/src/orderbook.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/stock_engine.dir/src/orderbook.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/src/orderbook.cpp > CMakeFiles/stock_engine.dir/src/orderbook.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/src/orderbook.cpp > CMakeFiles/stock_engine.dir/src/orderbook.cpp.i
 
 CMakeFiles/stock_engine.dir/src/orderbook.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/stock_engine.dir/src/orderbook.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/src/orderbook.cpp -o CMakeFiles/stock_engine.dir/src/orderbook.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/src/orderbook.cpp -o CMakeFiles/stock_engine.dir/src/orderbook.cpp.s
 
 CMakeFiles/stock_engine.dir/src/redis_client.cpp.o: CMakeFiles/stock_engine.dir/flags.make
 CMakeFiles/stock_engine.dir/src/redis_client.cpp.o: /mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/src/redis_client.cpp
 CMakeFiles/stock_engine.dir/src/redis_client.cpp.o: CMakeFiles/stock_engine.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/stock_engine.dir/src/redis_client.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/stock_engine.dir/src/redis_client.cpp.o -MF CMakeFiles/stock_engine.dir/src/redis_client.cpp.o.d -o CMakeFiles/stock_engine.dir/src/redis_client.cpp.o -c /mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/src/redis_client.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/stock_engine.dir/src/redis_client.cpp.o -MF CMakeFiles/stock_engine.dir/src/redis_client.cpp.o.d -o CMakeFiles/stock_engine.dir/src/redis_client.cpp.o -c /mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/src/redis_client.cpp
 
 CMakeFiles/stock_engine.dir/src/redis_client.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/stock_engine.dir/src/redis_client.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/src/redis_client.cpp > CMakeFiles/stock_engine.dir/src/redis_client.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/src/redis_client.cpp > CMakeFiles/stock_engine.dir/src/redis_client.cpp.i
 
 CMakeFiles/stock_engine.dir/src/redis_client.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/stock_engine.dir/src/redis_client.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/src/redis_client.cpp -o CMakeFiles/stock_engine.dir/src/redis_client.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/src/redis_client.cpp -o CMakeFiles/stock_engine.dir/src/redis_client.cpp.s
+
+CMakeFiles/stock_engine.dir/src/server.cpp.o: CMakeFiles/stock_engine.dir/flags.make
+CMakeFiles/stock_engine.dir/src/server.cpp.o: /mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/src/server.cpp
+CMakeFiles/stock_engine.dir/src/server.cpp.o: CMakeFiles/stock_engine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/stock_engine.dir/src/server.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/stock_engine.dir/src/server.cpp.o -MF CMakeFiles/stock_engine.dir/src/server.cpp.o.d -o CMakeFiles/stock_engine.dir/src/server.cpp.o -c /mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/src/server.cpp
+
+CMakeFiles/stock_engine.dir/src/server.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/stock_engine.dir/src/server.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/src/server.cpp > CMakeFiles/stock_engine.dir/src/server.cpp.i
+
+CMakeFiles/stock_engine.dir/src/server.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/stock_engine.dir/src/server.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/src/server.cpp -o CMakeFiles/stock_engine.dir/src/server.cpp.s
 
 # Object files for target stock_engine
 stock_engine_OBJECTS = \
@@ -145,7 +159,8 @@ stock_engine_OBJECTS = \
 "CMakeFiles/stock_engine.dir/src/main.cpp.o" \
 "CMakeFiles/stock_engine.dir/src/matching_engine.cpp.o" \
 "CMakeFiles/stock_engine.dir/src/orderbook.cpp.o" \
-"CMakeFiles/stock_engine.dir/src/redis_client.cpp.o"
+"CMakeFiles/stock_engine.dir/src/redis_client.cpp.o" \
+"CMakeFiles/stock_engine.dir/src/server.cpp.o"
 
 # External object files for target stock_engine
 stock_engine_EXTERNAL_OBJECTS =
@@ -155,9 +170,13 @@ stock_engine: CMakeFiles/stock_engine.dir/src/main.cpp.o
 stock_engine: CMakeFiles/stock_engine.dir/src/matching_engine.cpp.o
 stock_engine: CMakeFiles/stock_engine.dir/src/orderbook.cpp.o
 stock_engine: CMakeFiles/stock_engine.dir/src/redis_client.cpp.o
+stock_engine: CMakeFiles/stock_engine.dir/src/server.cpp.o
 stock_engine: CMakeFiles/stock_engine.dir/build.make
+stock_engine: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.83.0
+stock_engine: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.83.0
+stock_engine: /usr/lib/x86_64-linux-gnu/libboost_atomic.so.1.83.0
 stock_engine: CMakeFiles/stock_engine.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable stock_engine"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable stock_engine"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/stock_engine.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -1,32 +1,38 @@
 [
 {
-  "directory": "E:/My_personal/Projects/ongoing/Stock_Exchange_Engine/build",
-  "command": "C:\\mingw64\\bin\\clang++.exe  @CMakeFiles/stock_engine.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\stock_engine.dir\\src\\database.cpp.obj -c E:\\My_personal\\Projects\\ongoing\\Stock_Exchange_Engine\\backend\\src\\database.cpp",
-  "file": "E:/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/src/database.cpp",
-  "output": "CMakeFiles/stock_engine.dir/src/database.cpp.obj"
+  "directory": "/mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/build",
+  "command": "/usr/bin/g++ -DASIO_NO_DEPRECATED -DASIO_STANDALONE -DBOOST_ATOMIC_DYN_LINK -DBOOST_ATOMIC_NO_LIB -DBOOST_SYSTEM_DYN_LINK -DBOOST_SYSTEM_NO_LIB -DBOOST_THREAD_DYN_LINK -DBOOST_THREAD_NO_LIB -I/mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/include -I/mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/lib/crow/include -I/usr/include/hiredis -g -std=gnu++17 -o CMakeFiles/stock_engine.dir/src/database.cpp.o -c /mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/src/database.cpp",
+  "file": "/mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/src/database.cpp",
+  "output": "CMakeFiles/stock_engine.dir/src/database.cpp.o"
 },
 {
-  "directory": "E:/My_personal/Projects/ongoing/Stock_Exchange_Engine/build",
-  "command": "C:\\mingw64\\bin\\clang++.exe  @CMakeFiles/stock_engine.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\stock_engine.dir\\src\\main.cpp.obj -c E:\\My_personal\\Projects\\ongoing\\Stock_Exchange_Engine\\backend\\src\\main.cpp",
-  "file": "E:/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/src/main.cpp",
-  "output": "CMakeFiles/stock_engine.dir/src/main.cpp.obj"
+  "directory": "/mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/build",
+  "command": "/usr/bin/g++ -DASIO_NO_DEPRECATED -DASIO_STANDALONE -DBOOST_ATOMIC_DYN_LINK -DBOOST_ATOMIC_NO_LIB -DBOOST_SYSTEM_DYN_LINK -DBOOST_SYSTEM_NO_LIB -DBOOST_THREAD_DYN_LINK -DBOOST_THREAD_NO_LIB -I/mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/include -I/mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/lib/crow/include -I/usr/include/hiredis -g -std=gnu++17 -o CMakeFiles/stock_engine.dir/src/main.cpp.o -c /mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/src/main.cpp",
+  "file": "/mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/src/main.cpp",
+  "output": "CMakeFiles/stock_engine.dir/src/main.cpp.o"
 },
 {
-  "directory": "E:/My_personal/Projects/ongoing/Stock_Exchange_Engine/build",
-  "command": "C:\\mingw64\\bin\\clang++.exe  @CMakeFiles/stock_engine.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\stock_engine.dir\\src\\matching_engine.cpp.obj -c E:\\My_personal\\Projects\\ongoing\\Stock_Exchange_Engine\\backend\\src\\matching_engine.cpp",
-  "file": "E:/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/src/matching_engine.cpp",
-  "output": "CMakeFiles/stock_engine.dir/src/matching_engine.cpp.obj"
+  "directory": "/mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/build",
+  "command": "/usr/bin/g++ -DASIO_NO_DEPRECATED -DASIO_STANDALONE -DBOOST_ATOMIC_DYN_LINK -DBOOST_ATOMIC_NO_LIB -DBOOST_SYSTEM_DYN_LINK -DBOOST_SYSTEM_NO_LIB -DBOOST_THREAD_DYN_LINK -DBOOST_THREAD_NO_LIB -I/mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/include -I/mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/lib/crow/include -I/usr/include/hiredis -g -std=gnu++17 -o CMakeFiles/stock_engine.dir/src/matching_engine.cpp.o -c /mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/src/matching_engine.cpp",
+  "file": "/mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/src/matching_engine.cpp",
+  "output": "CMakeFiles/stock_engine.dir/src/matching_engine.cpp.o"
 },
 {
-  "directory": "E:/My_personal/Projects/ongoing/Stock_Exchange_Engine/build",
-  "command": "C:\\mingw64\\bin\\clang++.exe  @CMakeFiles/stock_engine.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\stock_engine.dir\\src\\orderbook.cpp.obj -c E:\\My_personal\\Projects\\ongoing\\Stock_Exchange_Engine\\backend\\src\\orderbook.cpp",
-  "file": "E:/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/src/orderbook.cpp",
-  "output": "CMakeFiles/stock_engine.dir/src/orderbook.cpp.obj"
+  "directory": "/mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/build",
+  "command": "/usr/bin/g++ -DASIO_NO_DEPRECATED -DASIO_STANDALONE -DBOOST_ATOMIC_DYN_LINK -DBOOST_ATOMIC_NO_LIB -DBOOST_SYSTEM_DYN_LINK -DBOOST_SYSTEM_NO_LIB -DBOOST_THREAD_DYN_LINK -DBOOST_THREAD_NO_LIB -I/mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/include -I/mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/lib/crow/include -I/usr/include/hiredis -g -std=gnu++17 -o CMakeFiles/stock_engine.dir/src/orderbook.cpp.o -c /mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/src/orderbook.cpp",
+  "file": "/mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/src/orderbook.cpp",
+  "output": "CMakeFiles/stock_engine.dir/src/orderbook.cpp.o"
 },
 {
-  "directory": "E:/My_personal/Projects/ongoing/Stock_Exchange_Engine/build",
-  "command": "C:\\mingw64\\bin\\clang++.exe  @CMakeFiles/stock_engine.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\stock_engine.dir\\src\\redis_client.cpp.obj -c E:\\My_personal\\Projects\\ongoing\\Stock_Exchange_Engine\\backend\\src\\redis_client.cpp",
-  "file": "E:/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/src/redis_client.cpp",
-  "output": "CMakeFiles/stock_engine.dir/src/redis_client.cpp.obj"
+  "directory": "/mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/build",
+  "command": "/usr/bin/g++ -DASIO_NO_DEPRECATED -DASIO_STANDALONE -DBOOST_ATOMIC_DYN_LINK -DBOOST_ATOMIC_NO_LIB -DBOOST_SYSTEM_DYN_LINK -DBOOST_SYSTEM_NO_LIB -DBOOST_THREAD_DYN_LINK -DBOOST_THREAD_NO_LIB -I/mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/include -I/mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/lib/crow/include -I/usr/include/hiredis -g -std=gnu++17 -o CMakeFiles/stock_engine.dir/src/redis_client.cpp.o -c /mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/src/redis_client.cpp",
+  "file": "/mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/src/redis_client.cpp",
+  "output": "CMakeFiles/stock_engine.dir/src/redis_client.cpp.o"
+},
+{
+  "directory": "/mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/build",
+  "command": "/usr/bin/g++ -DASIO_NO_DEPRECATED -DASIO_STANDALONE -DBOOST_ATOMIC_DYN_LINK -DBOOST_ATOMIC_NO_LIB -DBOOST_SYSTEM_DYN_LINK -DBOOST_SYSTEM_NO_LIB -DBOOST_THREAD_DYN_LINK -DBOOST_THREAD_NO_LIB -I/mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/include -I/mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/lib/crow/include -I/usr/include/hiredis -g -std=gnu++17 -o CMakeFiles/stock_engine.dir/src/server.cpp.o -c /mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/src/server.cpp",
+  "file": "/mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/src/server.cpp",
+  "output": "CMakeFiles/stock_engine.dir/src/server.cpp.o"
 }
 ]

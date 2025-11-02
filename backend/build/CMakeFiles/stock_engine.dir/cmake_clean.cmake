@@ -9,6 +9,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/stock_engine.dir/src/orderbook.cpp.o.d"
   "CMakeFiles/stock_engine.dir/src/redis_client.cpp.o"
   "CMakeFiles/stock_engine.dir/src/redis_client.cpp.o.d"
+  "CMakeFiles/stock_engine.dir/src/server.cpp.o"
+  "CMakeFiles/stock_engine.dir/src/server.cpp.o.d"
   "stock_engine"
   "stock_engine.pdb"
 )

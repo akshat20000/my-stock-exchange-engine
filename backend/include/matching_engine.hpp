@@ -1,14 +1,16 @@
 #pragma once
 #include "orderbook.hpp"
-#include "trade.hpp"
-#include <vector>
+#include "database.hpp"
+#include "redis_client.hpp"
+#include <sstream>
 
 class MatchingEngine {
-private:
-    OrderBook orderBook;
-    std::vector<Trade> trades;
-
 public:
-    void processOrder(const Order& order);
-    const std::vector<Trade>& getTrades() const;
+MatchingEngine(Database& db, RedisClient& redis);
+void processOrder(Order order);
+private:
+OrderBook orderBook;
+Database& db_;
+RedisClient& redis_;
+void executeTrade(Order buyOrder, Order sellOrder, double price, int qty);
 };

@@ -148,16 +148,28 @@ CMakeFiles/stock_engine.dir/src/matching_engine.cpp.o: \
  /usr/include/c++/13/bits/algorithmfwd.h \
  /usr/include/c++/13/bits/uniform_int_dist.h \
  /usr/include/c++/13/bits/stl_tempbuf.h \
- /mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/include/trade.hpp \
- /mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/include/redis_client.hpp \
- /usr/include/hiredis/hiredis.h /usr/include/hiredis/read.h \
- /usr/include/x86_64-linux-gnu/sys/time.h /usr/include/hiredis/sds.h \
- /usr/include/hiredis/alloc.h /usr/include/c++/13/sstream \
- /usr/include/c++/13/istream /usr/include/c++/13/ios \
+ /mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/include/database.hpp \
+ /usr/include/pqxx/pqxx /usr/include/pqxx/internal/header-pre.hxx \
+ /usr/include/c++/13/version /usr/include/pqxx/internal/cxx-features.hxx \
+ /usr/include/pqxx/config-public-compiler.h /usr/include/c++/13/ciso646 \
+ /usr/include/pqxx/array.hxx /usr/include/c++/13/algorithm \
+ /usr/include/c++/13/pstl/glue_algorithm_defs.h \
+ /usr/include/c++/13/pstl/execution_defs.h /usr/include/c++/13/cassert \
+ /usr/include/assert.h /usr/include/c++/13/stdexcept \
  /usr/include/c++/13/exception /usr/include/c++/13/bits/exception_ptr.h \
  /usr/include/c++/13/bits/cxxabi_init_exception.h \
- /usr/include/c++/13/bits/nested_exception.h \
- /usr/include/c++/13/bits/ios_base.h /usr/include/c++/13/ext/atomicity.h \
+ /usr/include/c++/13/bits/nested_exception.h /usr/include/c++/13/utility \
+ /usr/include/c++/13/bits/stl_relops.h /usr/include/pqxx/connection.hxx \
+ /usr/include/c++/13/list /usr/include/c++/13/bits/stl_list.h \
+ /usr/include/c++/13/bits/allocated_ptr.h \
+ /usr/include/c++/13/bits/list.tcc /usr/include/c++/13/map \
+ /usr/include/c++/13/bits/stl_tree.h /usr/include/c++/13/bits/stl_map.h \
+ /usr/include/c++/13/bits/stl_multimap.h /usr/include/c++/13/memory \
+ /usr/include/c++/13/bits/stl_raw_storage_iter.h \
+ /usr/include/c++/13/bits/align.h /usr/include/c++/13/bits/unique_ptr.h \
+ /usr/include/c++/13/bits/shared_ptr.h \
+ /usr/include/c++/13/bits/shared_ptr_base.h \
+ /usr/include/c++/13/ext/atomicity.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h \
  /usr/include/pthread.h /usr/include/sched.h \
@@ -169,20 +181,84 @@ CMakeFiles/stock_engine.dir/src/matching_engine.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/atomic_word.h \
  /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
+ /usr/include/c++/13/ext/concurrence.h \
+ /usr/include/c++/13/bits/shared_ptr_atomic.h \
+ /usr/include/c++/13/bits/atomic_base.h \
+ /usr/include/c++/13/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/13/backward/auto_ptr.h \
+ /usr/include/c++/13/pstl/glue_memory_defs.h \
+ /usr/include/pqxx/errorhandler.hxx /usr/include/pqxx/types.hxx \
+ /usr/include/c++/13/iterator /usr/include/c++/13/bits/stream_iterator.h \
+ /usr/include/c++/13/bits/streambuf_iterator.h \
+ /usr/include/c++/13/streambuf /usr/include/c++/13/bits/ios_base.h \
  /usr/include/c++/13/bits/locale_classes.h \
  /usr/include/c++/13/bits/locale_classes.tcc \
  /usr/include/c++/13/system_error \
  /usr/include/x86_64-linux-gnu/c++/13/bits/error_constants.h \
- /usr/include/c++/13/stdexcept /usr/include/c++/13/streambuf \
- /usr/include/c++/13/bits/streambuf.tcc \
- /usr/include/c++/13/bits/basic_ios.h \
+ /usr/include/c++/13/bits/streambuf.tcc /usr/include/pqxx/except.hxx \
+ /usr/include/pqxx/internal/concat.hxx /usr/include/pqxx/strconv.hxx \
+ /usr/include/c++/13/cstring /usr/include/string.h /usr/include/strings.h \
+ /usr/include/c++/13/sstream /usr/include/c++/13/istream \
+ /usr/include/c++/13/ios /usr/include/c++/13/bits/basic_ios.h \
  /usr/include/c++/13/bits/locale_facets.h /usr/include/c++/13/cwctype \
  /usr/include/wctype.h /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/ctype_base.h \
- /usr/include/c++/13/bits/streambuf_iterator.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/ctype_inline.h \
  /usr/include/c++/13/bits/locale_facets.tcc \
  /usr/include/c++/13/bits/basic_ios.tcc /usr/include/c++/13/ostream \
  /usr/include/c++/13/bits/ostream.tcc \
  /usr/include/c++/13/bits/istream.tcc \
- /usr/include/c++/13/bits/sstream.tcc /usr/include/c++/13/iostream
+ /usr/include/c++/13/bits/sstream.tcc /usr/include/c++/13/charconv \
+ /usr/include/pqxx/util.hxx /usr/include/pqxx/version.hxx \
+ /usr/include/pqxx/internal/libpq-forward.hxx /usr/include/pqxx/zview.hxx \
+ /usr/include/pqxx/internal/conversions.hxx /usr/include/c++/13/numeric \
+ /usr/include/c++/13/bits/stl_numeric.h \
+ /usr/include/c++/13/pstl/glue_numeric_defs.h \
+ /usr/include/c++/13/optional /usr/include/c++/13/variant \
+ /usr/include/pqxx/params.hxx \
+ /usr/include/pqxx/internal/statement_parameters.hxx \
+ /usr/include/pqxx/binarystring.hxx /usr/include/pqxx/result.hxx \
+ /usr/include/pqxx/internal/encodings.hxx /usr/include/c++/13/iomanip \
+ /usr/include/c++/13/locale \
+ /usr/include/c++/13/bits/locale_facets_nonio.h \
+ /usr/include/x86_64-linux-gnu/c++/13/bits/time_members.h \
+ /usr/include/x86_64-linux-gnu/c++/13/bits/messages_members.h \
+ /usr/include/libintl.h /usr/include/c++/13/bits/codecvt.h \
+ /usr/include/c++/13/bits/locale_facets_nonio.tcc \
+ /usr/include/c++/13/bits/locale_conv.h \
+ /usr/include/c++/13/bits/quoted_string.h \
+ /usr/include/pqxx/internal/encoding_group.hxx \
+ /usr/include/pqxx/internal/ignore-deprecated-pre.hxx \
+ /usr/include/pqxx/internal/ignore-deprecated-post.hxx \
+ /usr/include/pqxx/separated_list.hxx \
+ /usr/include/pqxx/internal/array-composite.hxx \
+ /usr/include/pqxx/blob.hxx /usr/include/c++/13/filesystem \
+ /usr/include/c++/13/bits/fs_fwd.h /usr/include/c++/13/bits/fs_path.h \
+ /usr/include/c++/13/codecvt /usr/include/c++/13/bits/fs_dir.h \
+ /usr/include/c++/13/bits/fs_ops.h /usr/include/pqxx/dbtransaction.hxx \
+ /usr/include/pqxx/transaction_base.hxx \
+ /usr/include/pqxx/internal/stream_query.hxx \
+ /usr/include/pqxx/internal/gates/connection-stream_from.hxx \
+ /usr/include/pqxx/internal/callgate.hxx \
+ /usr/include/pqxx/internal/stream_iterator.hxx \
+ /usr/include/pqxx/transaction_focus.hxx /usr/include/pqxx/isolation.hxx \
+ /usr/include/pqxx/row.hxx /usr/include/pqxx/field.hxx \
+ /usr/include/pqxx/composite.hxx \
+ /usr/include/pqxx/internal/stream_query_impl.hxx \
+ /usr/include/pqxx/cursor.hxx /usr/include/pqxx/internal/sql_cursor.hxx \
+ /usr/include/pqxx/largeobject.hxx /usr/include/pqxx/nontransaction.hxx \
+ /usr/include/pqxx/transaction.hxx /usr/include/pqxx/notification.hxx \
+ /usr/include/pqxx/pipeline.hxx /usr/include/pqxx/prepared_statement.hxx \
+ /usr/include/pqxx/params.hxx /usr/include/pqxx/range.hxx \
+ /usr/include/pqxx/internal/result_iterator.hxx \
+ /usr/include/pqxx/internal/result_iter.hxx \
+ /usr/include/pqxx/robusttransaction.hxx \
+ /usr/include/pqxx/stream_from.hxx /usr/include/pqxx/stream_to.hxx \
+ /usr/include/pqxx/subtransaction.hxx /usr/include/pqxx/time.hxx \
+ /usr/include/pqxx/transactor.hxx \
+ /usr/include/pqxx/internal/header-post.hxx \
+ /mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/include/redis_client.hpp \
+ /usr/include/hiredis/hiredis.h /usr/include/hiredis/read.h \
+ /usr/include/x86_64-linux-gnu/sys/time.h /usr/include/hiredis/sds.h \
+ /usr/include/hiredis/alloc.h /usr/include/c++/13/iostream \
+ /usr/include/c++/13/atomic
