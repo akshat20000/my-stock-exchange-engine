@@ -1,4 +1,5 @@
 import TradeFeed from "@/Components/TradeFeed";
+import OrderForm from "@/Components/OrderForm"; 
 
 export default function Home() {
   return (
@@ -7,8 +8,17 @@ export default function Home() {
         Real-Time Stock Exchange Feed
       </h1>
       
-      {/* This is your component */}
-      <TradeFeed />
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        {/* Column 1: The Order Form */}
+        <div>
+          <OrderForm /> 
+        </div>
+
+        {/* Column 2: The Trade Feed */}
+        <div>
+          <TradeFeed />
+        </div>
+      </div>
     </main>
   );
 }

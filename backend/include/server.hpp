@@ -1,6 +1,7 @@
 #pragma once
 #include "matching_engine.hpp"
 #include "database.hpp"
+#include <crow/middlewares/cors.h>
 #include <crow.h>
 #include <atomic> // For our order ID
 
@@ -11,7 +12,7 @@ class Server {
 private:
     MatchingEngine& engine_;
     Database& db_;
-    crow::SimpleApp app_;
+    crow::App<crow::CORSHandler> app_;
 
     // Private helper methods for routes
     void setup_routes();
