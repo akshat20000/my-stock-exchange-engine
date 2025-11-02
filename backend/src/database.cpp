@@ -32,3 +32,30 @@ void Database::insertTrade(int trade_id, int buy_id, int sell_id, double price, 
                     trade_id, buy_id, sell_id, price, qty);
     txn.commit();
 }
+
+crow::json::wvalue Database::getRecentTrades() {
+    try {
+        // Use a non-transactional read for speed
+        pqxx::read_transaction txn(*conn);
+        pqxx::result r = txn.exec(
+            "SELECT trade_id, price, qty FROM trades ORDER BY trade_id DESC LIMIT 20"
+        );
+
+        std::vector<crow::json::wvalue> trades;
+        for (const auto& row : r) {
+            crow::json::wvalue trade;
+            trade["trade_id"] = row["trade_id"].as<int>();
+            trade["price"] = row["price"].as<double>();
+            trade["qty"] = row["qty"].as<int>();
+            trades.push_back(std::move(trade));
+        }
+        
+        
+        return trades; 
+
+    } catch (const std::exception& e) {
+        std::cerr << "DB getRecentTrades error: " << e.what() << std::endl;
+        // Return an empty list on error
+        return crow::json::wvalue(crow::json::type::List); 
+    }
+}

@@ -12,7 +12,7 @@ redis.connect();
 
 redis.subscribe("trade_channel", (message) => {
   console.log("Relaying new trade:", message);
-  io.emit("newTrade", JSON.parse(message));
+  io.emit("NewTrade", JSON.parse(message));
 });
 
 server.listen(4000, () => console.log("Socket relay running on 4000"));

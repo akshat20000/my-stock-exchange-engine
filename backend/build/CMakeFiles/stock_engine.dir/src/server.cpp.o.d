@@ -258,10 +258,6 @@ CMakeFiles/stock_engine.dir/src/server.cpp.o: \
  /usr/include/pqxx/subtransaction.hxx /usr/include/pqxx/time.hxx \
  /usr/include/pqxx/transactor.hxx \
  /usr/include/pqxx/internal/header-post.hxx \
- /mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/include/redis_client.hpp \
- /usr/include/hiredis/hiredis.h /usr/include/hiredis/read.h \
- /usr/include/x86_64-linux-gnu/sys/time.h /usr/include/hiredis/sds.h \
- /usr/include/hiredis/alloc.h \
  /mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/lib/crow/include/crow.h \
  /mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/lib/crow/include/crow/query_string.h \
  /usr/include/c++/13/iostream \
@@ -922,4 +918,9 @@ CMakeFiles/stock_engine.dir/src/server.cpp.o: \
  /mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/lib/crow/include/crow/compression.h \
  /mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/lib/crow/include/crow/http_server.h \
  /mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/lib/crow/include/crow/version.h \
- /mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/lib/crow/include/crow/app.h
+ /mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/lib/crow/include/crow/app.h \
+ /mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/include/redis_client.hpp \
+ /usr/include/hiredis/hiredis.h /usr/include/hiredis/read.h \
+ /usr/include/x86_64-linux-gnu/sys/time.h /usr/include/hiredis/sds.h \
+ /usr/include/hiredis/alloc.h \
+ /mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/lib/crow/include/crow/middlewares/cors.h
