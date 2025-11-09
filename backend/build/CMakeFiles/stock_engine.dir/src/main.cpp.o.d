@@ -923,4 +923,16 @@ CMakeFiles/stock_engine.dir/src/main.cpp.o: \
  /usr/include/hiredis/hiredis.h /usr/include/hiredis/read.h \
  /usr/include/x86_64-linux-gnu/sys/time.h /usr/include/hiredis/sds.h \
  /usr/include/hiredis/alloc.h \
- /mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/lib/crow/include/crow/middlewares/cors.h
+ /mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/lib/crow/include/crow/middlewares/cors.h \
+ /mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/include/logger.hpp \
+ /usr/include/spdlog/spdlog.h /usr/include/spdlog/common.h \
+ /usr/include/spdlog/tweakme.h /usr/include/spdlog/details/null_mutex.h \
+ /usr/include/spdlog/fmt/fmt.h /usr/include/fmt/core.h \
+ /usr/include/fmt/format.h /usr/include/fmt/core.h \
+ /usr/include/spdlog/details/registry.h \
+ /usr/include/spdlog/details/periodic_worker.h \
+ /usr/include/spdlog/logger.h /usr/include/spdlog/details/log_msg.h \
+ /usr/include/spdlog/details/backtracer.h \
+ /usr/include/spdlog/details/log_msg_buffer.h \
+ /usr/include/spdlog/details/circular_q.h /usr/include/spdlog/version.h \
+ /usr/include/spdlog/details/synchronous_factory.h

@@ -8,6 +8,7 @@ set(CMAKE_BUILD_TYPE Debug)
 find_package(Threads REQUIRED)
 find_package(PkgConfig REQUIRED)
 find_package(Boost REQUIRED COMPONENTS system thread)
+find_package(spdlog REQUIRED)
 pkg_search_module(HIREDIS REQUIRED hiredis)
 pkg_search_module(LIBPQXX REQUIRED libpqxx)
 find_path(ASIO_INCLUDE_DIR NAMES asio.hpp PATHS /usr/include /usr/local/include REQUIRED)
@@ -38,6 +39,7 @@ target_link_libraries(stock_engine PRIVATE
     Threads::Threads
     Boost::system
     Boost::thread
+    spdlog::spdlog
     ${LIBPQXX_LIBRARIES}
     ${HIREDIS_LIBRARIES}
     Crow 

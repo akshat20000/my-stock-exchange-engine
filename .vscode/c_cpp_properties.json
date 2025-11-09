@@ -5,7 +5,8 @@
             "includePath": [
                 "${workspaceFolder}/**",
                 "${workspaceFolder}/backend/include",
-                "${workspaceFolder}/backend/lib/crow/include/crow"
+                "${workspaceFolder}/backend/lib/crow/include/crow",
+                "${workspaceFolder}/backend/lib/crow/include"
             ],
             "defines": [
                 "_DEBUG",

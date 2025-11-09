@@ -1,37 +1,43 @@
 [
 {
   "directory": "/mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/build",
-  "command": "/usr/bin/g++ -DASIO_NO_DEPRECATED -DASIO_STANDALONE -DBOOST_ATOMIC_DYN_LINK -DBOOST_ATOMIC_NO_LIB -DBOOST_SYSTEM_DYN_LINK -DBOOST_SYSTEM_NO_LIB -DBOOST_THREAD_DYN_LINK -DBOOST_THREAD_NO_LIB -I/mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/include -I/mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/lib/crow/include -I/usr/include/hiredis -g -std=gnu++17 -o CMakeFiles/stock_engine.dir/src/database.cpp.o -c /mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/src/database.cpp",
+  "command": "/usr/bin/g++ -DASIO_NO_DEPRECATED -DASIO_STANDALONE -DBOOST_ATOMIC_DYN_LINK -DBOOST_ATOMIC_NO_LIB -DBOOST_SYSTEM_DYN_LINK -DBOOST_SYSTEM_NO_LIB -DBOOST_THREAD_DYN_LINK -DBOOST_THREAD_NO_LIB -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -I/mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/include -I/mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/lib/crow/include -I/usr/include/hiredis -g -std=gnu++17 -o CMakeFiles/stock_engine.dir/src/database.cpp.o -c /mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/src/database.cpp",
   "file": "/mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/src/database.cpp",
   "output": "CMakeFiles/stock_engine.dir/src/database.cpp.o"
 },
 {
   "directory": "/mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/build",
-  "command": "/usr/bin/g++ -DASIO_NO_DEPRECATED -DASIO_STANDALONE -DBOOST_ATOMIC_DYN_LINK -DBOOST_ATOMIC_NO_LIB -DBOOST_SYSTEM_DYN_LINK -DBOOST_SYSTEM_NO_LIB -DBOOST_THREAD_DYN_LINK -DBOOST_THREAD_NO_LIB -I/mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/include -I/mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/lib/crow/include -I/usr/include/hiredis -g -std=gnu++17 -o CMakeFiles/stock_engine.dir/src/main.cpp.o -c /mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/src/main.cpp",
+  "command": "/usr/bin/g++ -DASIO_NO_DEPRECATED -DASIO_STANDALONE -DBOOST_ATOMIC_DYN_LINK -DBOOST_ATOMIC_NO_LIB -DBOOST_SYSTEM_DYN_LINK -DBOOST_SYSTEM_NO_LIB -DBOOST_THREAD_DYN_LINK -DBOOST_THREAD_NO_LIB -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -I/mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/include -I/mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/lib/crow/include -I/usr/include/hiredis -g -std=gnu++17 -o CMakeFiles/stock_engine.dir/src/logger.cpp.o -c /mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/src/logger.cpp",
+  "file": "/mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/src/logger.cpp",
+  "output": "CMakeFiles/stock_engine.dir/src/logger.cpp.o"
+},
+{
+  "directory": "/mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/build",
+  "command": "/usr/bin/g++ -DASIO_NO_DEPRECATED -DASIO_STANDALONE -DBOOST_ATOMIC_DYN_LINK -DBOOST_ATOMIC_NO_LIB -DBOOST_SYSTEM_DYN_LINK -DBOOST_SYSTEM_NO_LIB -DBOOST_THREAD_DYN_LINK -DBOOST_THREAD_NO_LIB -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -I/mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/include -I/mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/lib/crow/include -I/usr/include/hiredis -g -std=gnu++17 -o CMakeFiles/stock_engine.dir/src/main.cpp.o -c /mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/src/main.cpp",
   "file": "/mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/src/main.cpp",
   "output": "CMakeFiles/stock_engine.dir/src/main.cpp.o"
 },
 {
   "directory": "/mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/build",
-  "command": "/usr/bin/g++ -DASIO_NO_DEPRECATED -DASIO_STANDALONE -DBOOST_ATOMIC_DYN_LINK -DBOOST_ATOMIC_NO_LIB -DBOOST_SYSTEM_DYN_LINK -DBOOST_SYSTEM_NO_LIB -DBOOST_THREAD_DYN_LINK -DBOOST_THREAD_NO_LIB -I/mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/include -I/mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/lib/crow/include -I/usr/include/hiredis -g -std=gnu++17 -o CMakeFiles/stock_engine.dir/src/matching_engine.cpp.o -c /mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/src/matching_engine.cpp",
+  "command": "/usr/bin/g++ -DASIO_NO_DEPRECATED -DASIO_STANDALONE -DBOOST_ATOMIC_DYN_LINK -DBOOST_ATOMIC_NO_LIB -DBOOST_SYSTEM_DYN_LINK -DBOOST_SYSTEM_NO_LIB -DBOOST_THREAD_DYN_LINK -DBOOST_THREAD_NO_LIB -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -I/mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/include -I/mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/lib/crow/include -I/usr/include/hiredis -g -std=gnu++17 -o CMakeFiles/stock_engine.dir/src/matching_engine.cpp.o -c /mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/src/matching_engine.cpp",
   "file": "/mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/src/matching_engine.cpp",
   "output": "CMakeFiles/stock_engine.dir/src/matching_engine.cpp.o"
 },
 {
   "directory": "/mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/build",
-  "command": "/usr/bin/g++ -DASIO_NO_DEPRECATED -DASIO_STANDALONE -DBOOST_ATOMIC_DYN_LINK -DBOOST_ATOMIC_NO_LIB -DBOOST_SYSTEM_DYN_LINK -DBOOST_SYSTEM_NO_LIB -DBOOST_THREAD_DYN_LINK -DBOOST_THREAD_NO_LIB -I/mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/include -I/mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/lib/crow/include -I/usr/include/hiredis -g -std=gnu++17 -o CMakeFiles/stock_engine.dir/src/orderbook.cpp.o -c /mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/src/orderbook.cpp",
+  "command": "/usr/bin/g++ -DASIO_NO_DEPRECATED -DASIO_STANDALONE -DBOOST_ATOMIC_DYN_LINK -DBOOST_ATOMIC_NO_LIB -DBOOST_SYSTEM_DYN_LINK -DBOOST_SYSTEM_NO_LIB -DBOOST_THREAD_DYN_LINK -DBOOST_THREAD_NO_LIB -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -I/mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/include -I/mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/lib/crow/include -I/usr/include/hiredis -g -std=gnu++17 -o CMakeFiles/stock_engine.dir/src/orderbook.cpp.o -c /mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/src/orderbook.cpp",
   "file": "/mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/src/orderbook.cpp",
   "output": "CMakeFiles/stock_engine.dir/src/orderbook.cpp.o"
 },
 {
   "directory": "/mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/build",
-  "command": "/usr/bin/g++ -DASIO_NO_DEPRECATED -DASIO_STANDALONE -DBOOST_ATOMIC_DYN_LINK -DBOOST_ATOMIC_NO_LIB -DBOOST_SYSTEM_DYN_LINK -DBOOST_SYSTEM_NO_LIB -DBOOST_THREAD_DYN_LINK -DBOOST_THREAD_NO_LIB -I/mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/include -I/mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/lib/crow/include -I/usr/include/hiredis -g -std=gnu++17 -o CMakeFiles/stock_engine.dir/src/redis_client.cpp.o -c /mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/src/redis_client.cpp",
+  "command": "/usr/bin/g++ -DASIO_NO_DEPRECATED -DASIO_STANDALONE -DBOOST_ATOMIC_DYN_LINK -DBOOST_ATOMIC_NO_LIB -DBOOST_SYSTEM_DYN_LINK -DBOOST_SYSTEM_NO_LIB -DBOOST_THREAD_DYN_LINK -DBOOST_THREAD_NO_LIB -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -I/mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/include -I/mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/lib/crow/include -I/usr/include/hiredis -g -std=gnu++17 -o CMakeFiles/stock_engine.dir/src/redis_client.cpp.o -c /mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/src/redis_client.cpp",
   "file": "/mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/src/redis_client.cpp",
   "output": "CMakeFiles/stock_engine.dir/src/redis_client.cpp.o"
 },
 {
   "directory": "/mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/build",
-  "command": "/usr/bin/g++ -DASIO_NO_DEPRECATED -DASIO_STANDALONE -DBOOST_ATOMIC_DYN_LINK -DBOOST_ATOMIC_NO_LIB -DBOOST_SYSTEM_DYN_LINK -DBOOST_SYSTEM_NO_LIB -DBOOST_THREAD_DYN_LINK -DBOOST_THREAD_NO_LIB -I/mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/include -I/mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/lib/crow/include -I/usr/include/hiredis -g -std=gnu++17 -o CMakeFiles/stock_engine.dir/src/server.cpp.o -c /mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/src/server.cpp",
+  "command": "/usr/bin/g++ -DASIO_NO_DEPRECATED -DASIO_STANDALONE -DBOOST_ATOMIC_DYN_LINK -DBOOST_ATOMIC_NO_LIB -DBOOST_SYSTEM_DYN_LINK -DBOOST_SYSTEM_NO_LIB -DBOOST_THREAD_DYN_LINK -DBOOST_THREAD_NO_LIB -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -I/mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/include -I/mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/lib/crow/include -I/usr/include/hiredis -g -std=gnu++17 -o CMakeFiles/stock_engine.dir/src/server.cpp.o -c /mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/src/server.cpp",
   "file": "/mnt/e/My_personal/Projects/ongoing/Stock_Exchange_Engine/backend/src/server.cpp",
   "output": "CMakeFiles/stock_engine.dir/src/server.cpp.o"
 }

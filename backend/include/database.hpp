@@ -8,6 +8,20 @@ private:
     pqxx::connection* conn;
 
 public:
+
+    template<typename... Args>
+    bool execute(const std::string& query, Args... args) {
+        try {
+            pqxx::work txn(*conn);
+            txn.exec_params(query, args...);
+            txn.commit();
+            return true;
+        } catch (const std::exception& e) {
+            std::cerr << "DB Query failed: " << e.what() << std::endl;
+            return false;
+        }
+    }
+
     Database(const std::string& dbname, const std::string& user,
              const std::string& password, const std::string& host, int port);
     ~Database();

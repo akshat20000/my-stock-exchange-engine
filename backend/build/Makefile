@@ -231,6 +231,30 @@ src/database.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/stock_engine.dir/build.make CMakeFiles/stock_engine.dir/src/database.cpp.s
 .PHONY : src/database.cpp.s
 
+src/logger.o: src/logger.cpp.o
+.PHONY : src/logger.o
+
+# target to build an object file
+src/logger.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stock_engine.dir/build.make CMakeFiles/stock_engine.dir/src/logger.cpp.o
+.PHONY : src/logger.cpp.o
+
+src/logger.i: src/logger.cpp.i
+.PHONY : src/logger.i
+
+# target to preprocess a source file
+src/logger.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stock_engine.dir/build.make CMakeFiles/stock_engine.dir/src/logger.cpp.i
+.PHONY : src/logger.cpp.i
+
+src/logger.s: src/logger.cpp.s
+.PHONY : src/logger.s
+
+# target to generate assembly for a file
+src/logger.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stock_engine.dir/build.make CMakeFiles/stock_engine.dir/src/logger.cpp.s
+.PHONY : src/logger.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -370,6 +394,9 @@ help:
 	@echo "... src/database.o"
 	@echo "... src/database.i"
 	@echo "... src/database.s"
+	@echo "... src/logger.o"
+	@echo "... src/logger.i"
+	@echo "... src/logger.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
