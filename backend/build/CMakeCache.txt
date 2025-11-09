@@ -417,11 +417,17 @@ boost_system_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/boost_system-1.83.0
 //The directory containing a CMake configuration file for boost_thread.
 boost_thread_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/boost_thread-1.83.0
 
+//The directory containing a CMake configuration file for fmt.
+fmt_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/fmt
+
 //Path to a library.
 pkgcfg_lib_HIREDIS_hiredis:FILEPATH=/usr/lib/x86_64-linux-gnu/libhiredis.so
 
 //Path to a library.
 pkgcfg_lib_LIBPQXX_pqxx:FILEPATH=/usr/lib/x86_64-linux-gnu/libpqxx.so
+
+//The directory containing a CMake configuration file for spdlog.
+spdlog_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/spdlog
 
 
 ########################

@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/stock_engine.dir/src/database.cpp.o"
   "CMakeFiles/stock_engine.dir/src/database.cpp.o.d"
+  "CMakeFiles/stock_engine.dir/src/logger.cpp.o"
+  "CMakeFiles/stock_engine.dir/src/logger.cpp.o.d"
   "CMakeFiles/stock_engine.dir/src/main.cpp.o"
   "CMakeFiles/stock_engine.dir/src/main.cpp.o.d"
   "CMakeFiles/stock_engine.dir/src/matching_engine.cpp.o"
