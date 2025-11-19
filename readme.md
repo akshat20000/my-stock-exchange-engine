@@ -20,10 +20,9 @@ It’s designed for **educational**, **portfolio**, and **research** use in fina
 - Multi-threaded backend written in C++
 - Modern UI with live trade feed
 
----
+```
 
 ## 🏗️ Architecture
-
 
 ┌──────────────┐      HTTP/REST      ┌──────────────┐
 │   Frontend   │  ─────────────────> │   C++ API    │
@@ -118,6 +117,7 @@ php
 │   └── roadmap.md
 │
 └── ROADMAP.md                    # Development roadmap
+```
 ⚙️ Setup & Installation
 🧾 Prerequisites
 Ensure you have the following installed:
