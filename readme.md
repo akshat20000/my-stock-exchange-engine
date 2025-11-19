@@ -24,7 +24,7 @@ It’s designed for **educational**, **portfolio**, and **research** use in fina
 
 ## 🏗️ Architecture
 
-```text
+
 ┌──────────────┐      HTTP/REST      ┌──────────────┐
 │   Frontend   │  ─────────────────> │   C++ API    │
 │ (Next.js 16) │ <─────────────────  │   (Crow)     │
@@ -86,7 +86,7 @@ Hosting: Replit (dev) / Docker (planned)
 
 🗂️ Project Structure
 php
-Copy code
+
 .
 ├── backend/
 │   ├── src/
@@ -136,7 +136,7 @@ Git
 
 🧩 Step 1: Database Setup
 bash
-Copy code
+
 # Create the database
 createdb stock_exchange
 
@@ -146,7 +146,7 @@ psql -d stock_exchange -f scripts/seed_db.sql
 Create a .env file in both backend and frontend/stock_engine/ directories:
 
 bash
-Copy code
+
 # backend/.env
 DB_HOST=localhost
 DB_USER=postgres
@@ -168,7 +168,7 @@ make -j$(nproc)
 ./stock_engine
 🔁 Step 4: Start Relay Server
 bash
-Copy code
+
 cd backend/relay
 npm install
 node server.js
@@ -195,7 +195,6 @@ CancelOrder	(Planned)	Broadcasts order cancellation
 
 📊 Database Schema
 sql
-Copy code
 CREATE TABLE users (
     id SERIAL PRIMARY KEY,
     username VARCHAR(50),
@@ -284,11 +283,3 @@ Chitkara University
 This project is licensed under the MIT License — see the LICENSE file for details.
 
 "Building the foundations of real-time finance with open-source precision." ⚡
-
-yaml
-Copy code
-
----
-
-Would you like me to **add badges and visuals (like shields.io badges, architecture diagram, and screenshots section)** for GitHub polish next?  
-It’ll make your repo look like a professional open-source showcase project.
