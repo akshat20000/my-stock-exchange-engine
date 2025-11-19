@@ -117,7 +117,7 @@ php
 │   └── roadmap.md
 │
 └── ROADMAP.md                    # Development roadmap
-```
+
 ⚙️ Setup & Installation
 🧾 Prerequisites
 Ensure you have the following installed:
@@ -156,11 +156,12 @@ REDIS_HOST=localhost
 REDIS_PORT=6379
 
 # frontend/.env.local
+
 NEXT_PUBLIC_BACKEND_URL=http://localhost:8080
 NEXT_PUBLIC_SOCKET_URL=http://localhost:4000
 🧱 Step 3: Build & Run Backend
 bash
-Copy code
+
 cd backend
 mkdir build && cd build
 cmake ..
@@ -231,7 +232,7 @@ Use HTTPS (wss://) for Socket.IO.
 Add input validation and rate limiting.
 
 Secure Redis with authentication.
-
+```
 🧭 Roadmap Summary
 For a detailed future development plan, see ROADMAP.md
 
