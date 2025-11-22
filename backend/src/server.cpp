@@ -36,6 +36,7 @@ void Server::setup_routes()
 }
 
 // Handler for POST /order
+// Handler for POST /order
 crow::response Server::handle_post_order(const crow::request &req)
 {
     auto body = crow::json::load(req.body);
@@ -44,11 +45,26 @@ crow::response Server::handle_post_order(const crow::request &req)
 
     try
     {
+        // Extract user_id from request body (frontend will send this from JWT)
         std::string user_id = body["user_id"].s();
         std::string symbol = body["symbol"].s();
         std::string type = body["type"].s();
         double price = body["price"].d();
         int quantity = body["quantity"].i();
+
+        // Basic validation
+        if (price <= 0 || quantity <= 0) {
+            crow::json::wvalue err;
+            err["status"] = "error";
+            err["message"] = "Price and quantity must be positive";
+            return crow::response(400, err);
+        }
+
+        // TODO: In Phase 2, check user balance here
+        // auto user = db_.getUserById(std::stoi(user_id));
+        // if (type == "BUY" && user["balance"].d() < price * quantity) {
+        //     return crow::response(400, "Insufficient balance");
+        // }
 
         // Use the thread-safe atomic counter
         int order_id = g_order_id++;
@@ -56,7 +72,7 @@ crow::response Server::handle_post_order(const crow::request &req)
         OrderType orderType = (type == "BUY") ? OrderType::BUY : OrderType::SELL;
         Order order(order_id, user_id, symbol, orderType, price, quantity);
 
-        // Server's ONLY job: tell the engine to process.
+        // Process the order
         engine_.processOrder(order);
 
         crow::json::wvalue res;
@@ -66,10 +82,9 @@ crow::response Server::handle_post_order(const crow::request &req)
     }
     catch (const std::exception &e)
     {
-        std::cerr << "❌ JSON PARSE ERROR: " << e.what() << std::endl;
+        std::cerr << "❌ ORDER ERROR: " << e.what() << std::endl;
 
         crow::json::wvalue err;
-
         err["status"] = "error";
         err["message"] = std::string("Invalid field: ") + e.what();
         return crow::response(400, err);
