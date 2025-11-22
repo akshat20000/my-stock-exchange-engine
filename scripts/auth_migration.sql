@@ -1,0 +1,28 @@
+ALTER TABLE users ADD COLUMN IF NOT EXISTS password_hash VARCHAR(255);
+ALTER TABLE users ADD COLUMN IF NOT EXISTS created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP;
+ALTER TABLE users ADD COLUMN IF NOT EXISTS last_login TIMESTAMP;
+ALTER TABLE users ADD COLUMN IF NOT EXISTS is_active BOOLEAN DEFAULT TRUE;
+
+ALTER TABLE users ADD CONSTRAINT unique_username UNIQUE (username);
+
+CREATE TABLE IF NOT EXISTS user_sessions (
+    id SERIAL PRIMARY KEY,
+    user_id INT REFERENCES users(id) ON DELETE CASCADE,
+    token_hash VARCHAR(255) NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    expires_at TIMESTAMP NOT NULL,
+    is_revoked BOOLEAN DEFAULT FALSE
+);
+
+CREATE INDEX idx_user_sessions_token ON user_sessions(token_hash);
+CREATE INDEX idx_user_sessions_user_id ON user_sessions(user_id);
+
+CREATE TABLE IF NOT EXISTS balance_history (
+    id SERIAL PRIMARY KEY,
+    user_id INT REFERENCES users(id) ON DELETE CASCADE,
+    amount DOUBLE PRECISION NOT NULL,
+    balance_before DOUBLE PRECISION NOT NULL,
+    balance_after DOUBLE PRECISION NOT NULL,
+    reason VARCHAR(100),
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);

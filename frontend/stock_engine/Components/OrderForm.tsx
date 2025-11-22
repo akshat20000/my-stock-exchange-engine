@@ -1,32 +1,39 @@
-"use client"; // This is a client component
+"use client";
 
-import { useState } from "react";
-import { placeOrder } from "@/API/api"; 
+import { useState, useEffect } from "react";
+import { placeOrder, getCurrentUser } from "@/API/api";
 
 export default function OrderForm() {
   const [symbol, setSymbol] = useState("AAPL");
   const [type, setType] = useState<"BUY" | "SELL">("BUY");
   const [price, setPrice] = useState("");
   const [quantity, setQuantity] = useState("");
+  const [user, setUser] = useState<any>(null);
+
+  useEffect(() => {
+    setUser(getCurrentUser());
+  }, []);
 
   const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault(); // Stop the page from reloading
+    e.preventDefault();
+
+    if (!user) {
+      alert("You must be logged in to place orders");
+      return;
+    }
 
     try {
-      // Call your API function with the form data
       await placeOrder({
-        user_id: "u1", // You can update this later
+        user_id: user.id.toString(),
         symbol: symbol,
         type: type,
         price: parseFloat(price),
-        quantity: parseInt(quantity)
+        quantity: parseInt(quantity),
       });
-      
+
       alert("Order placed successfully!");
-      // Clear the form
       setPrice("");
       setQuantity("");
-
     } catch (error) {
       alert("Failed to place order. Check console for details.");
       console.error(error);
@@ -34,12 +41,19 @@ export default function OrderForm() {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="w-full max-w-md bg-white dark:bg-zinc-800 p-6 rounded-lg shadow-md border dark:border-zinc-700">
-      <h2 className="text-2xl font-semibold mb-4 text-black dark:text-white">Place an Order</h2>
-      
+    <form
+      onSubmit={handleSubmit}
+      className="w-full max-w-md bg-white dark:bg-zinc-800 p-6 rounded-lg shadow-md border dark:border-zinc-700"
+    >
+      <h2 className="text-2xl font-semibold mb-4 text-black dark:text-white">
+        Place an Order
+      </h2>
+
       {/* Symbol */}
       <div className="mb-4">
-        <label className="block text-sm font-medium text-zinc-700 dark:text-zinc-300">Symbol</label>
+        <label className="block text-sm font-medium text-zinc-700 dark:text-zinc-300">
+          Symbol
+        </label>
         <input
           type="text"
           value={symbol}
@@ -51,7 +65,9 @@ export default function OrderForm() {
 
       {/* Type */}
       <div className="mb-4">
-        <label className="block text-sm font-medium text-zinc-700 dark:text-zinc-300">Type</label>
+        <label className="block text-sm font-medium text-zinc-700 dark:text-zinc-300">
+          Type
+        </label>
         <select
           value={type}
           onChange={(e) => setType(e.target.value as "BUY" | "SELL")}
@@ -64,7 +80,9 @@ export default function OrderForm() {
 
       {/* Price */}
       <div className="mb-4">
-        <label className="block text-sm font-medium text-zinc-700 dark:text-zinc-300">Price</label>
+        <label className="block text-sm font-medium text-zinc-700 dark:text-zinc-300">
+          Price
+        </label>
         <input
           type="number"
           step="0.01"
@@ -77,7 +95,9 @@ export default function OrderForm() {
 
       {/* Quantity */}
       <div className="mb-4">
-        <label className="block text-sm font-medium text-zinc-700 dark:text-zinc-300">Quantity</label>
+        <label className="block text-sm font-medium text-zinc-700 dark:text-zinc-300">
+          Quantity
+        </label>
         <input
           type="number"
           step="1"
@@ -89,7 +109,10 @@ export default function OrderForm() {
       </div>
 
       {/* Submit Button */}
-      <button type="submit" className="w-full bg-blue-600 text-white p-2 rounded-md hover:bg-blue-700">
+      <button
+        type="submit"
+        className="w-full bg-blue-600 text-white p-2 rounded-md hover:bg-blue-700"
+      >
         Place Order
       </button>
     </form>
